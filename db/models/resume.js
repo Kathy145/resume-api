@@ -5,6 +5,7 @@ const ResumeSchema = new mongoose.Schema({
   position: String,
   startDate: String,
   endDate: String,
+  location: String,
   duties: Array,
 })
 
